@@ -1,0 +1,53 @@
+
+header{
+  padding: 20px 0 0 20px;
+}
+section{
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction:column;
+}
+
+h1, .main-title {
+  font-size: 24px;
+
+}
+
+.main-title {
+  padding-left: 0;
+  padding-right: 0;
+  color: #4a4a4a;
+  font-weight: 500;
+  margin-bottom: 0;
+  position: relative;
+
+  small {
+    color: #4a4a4a;
+    padding-left: 50px;
+  }
+
+  &:after {
+    margin: 6px 0 0;
+    content: "";
+    display: block;
+    background-image: linear-gradient(to right, #295e6c 0%, #52bfa2 100%);
+    height: 2px;
+  }
+}
+table {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  display: table;
+  text-indent: initial;
+  font-family:  system-ui;
+}
+td {
+  padding: 10px 5px 5px 10px;
+
+  &:first-child {
+    text-transform: uppercase;
+    color: #9b9b9b;
+  }
+}
